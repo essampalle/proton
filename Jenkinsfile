@@ -5,6 +5,7 @@ pipeline {
         jdk "JDK17"
     }
     
+    
     environment {
         SNAP_REPO = 'vprofile-snapshot'
 		NEXUS_USER = 'admin'
