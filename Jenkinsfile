@@ -32,7 +32,7 @@ pipeline {
 
         }
     }
-    stages('Test') {
+    stage('Test') {
         steps {
             sh 'mvn -s settings.xml test'
         }
