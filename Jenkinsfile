@@ -72,7 +72,7 @@ pipeline {
             }
         }
 
-         nexusArtifactUploader(
+        nexusArtifactUploader(
         nexusVersion: 'nexus3',
         protocol: 'http',
         nexusUrl: 'my.nexus.address',
